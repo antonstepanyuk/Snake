@@ -1,0 +1,20 @@
+@media (orientation: landscape){
+    .snake_container{
+        height: 90%;
+
+    }
+
+}
+
+@media (orientation: portrait){
+    .snake_container{
+        width: 90%;
+    }
+}
+
+.snake_container{
+    /*margin: 5%;*/
+    position: absolute;
+    background: silver;
+    aspect-ratio: 1 / 1;
+}
