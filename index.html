@@ -6,15 +6,33 @@
     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/fonts.css">
     <link rel="stylesheet" type="text/css" href="styles/page.css">
-    <link rel="stylesheet" type="text/css" href="styles/snake.css">
+    <link rel="stylesheet" type="text/css" href="styles/game.css">
+    <script type="text/javascript" src="scripts/GameView.js"></script>
+    <script type="text/javascript" src="scripts/GameController.js"></script>
+    <script defer type="text/javascript" src="scripts/Game.js"></script>
 </head>
+
 <body>
-<div class="snake_container" id="snake_container">
-    <span class="snake_logo" id="snake_logo"></span>
+<div class="container" id="container">
+    <div class="logo">Snake</div>
+
     <div class="statistics" id="statistics">
-        <span class="score">Score<span id="score"></span></span>
+        <div class="score">
+            <span>Score:</span>
+            <span id="score"></span>
+        </div>
+
+
+        <div class="lives" id="lives">
+            <span>Lives: </span>
+        </div>
     </div>
-    <div class="snake_field" id="snake_field"></div>
+
+    <div class="field" id="field">
+        <div class="cells" id="cells"></div>
+    </div>
+
+    <div class="play_btn" id="play_btn">PLAY</div>
 </div>
 </body>
 </html>

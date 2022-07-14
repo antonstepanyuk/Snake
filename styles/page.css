@@ -2,5 +2,12 @@ html,body{
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-color: coral;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    /*todo delete*/
+    background-color: red;
 }
